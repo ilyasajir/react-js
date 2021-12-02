@@ -15,9 +15,9 @@ const Views = (props)=> {
         <TheLayout>
             <Suspense fallback={<div>loading....</div>}>
                 <Switch>
-                    <Route path={Constants.ADMIN_PREFIX_PATH}>
-                        <AdminViews/>
-                    </Route>
+                    {/*<Route path={Constants.ADMIN_PREFIX_PATH}>*/}
+                    {/*    <AdminViews/>*/}
+                    {/*</Route>*/}
                     <Route path={Constants.APP_PREFIX_PATH}>
                         <AppViews/>
                     </Route>

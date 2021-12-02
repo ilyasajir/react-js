@@ -1,5 +1,4 @@
 module.exports = {
-    mode: 'jit',
     purge: [
         './src/**/*.{js,jsx}',
         './src/**/**/*.{js,jsx}',
@@ -10,7 +9,8 @@ module.exports = {
         './src/**/**/**/**/**/**/**/*.{js,jsx}',
         './src/**/**/**/**/**/**/**/**/*.{js,jsx}',
         './src/**/**/**/**/**/**/**/**/**/*.{js,jsx}',
-        './public/index.html'],
+        './public/index.html'
+    ],
     darkMode: 'class', // or 'media' or 'class'
     theme: {
         extend: {},
